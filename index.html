@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIM | Security Incident Mapping</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+
+<header>
+
+<nav>
+
+<div class="logo">
+
+<i class="fa-solid fa-shield-halved"></i>
+
+<span>SIM</span>
+
+</div>
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#report">Report</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+
+<section class="hero" id="home">
+
+<div class="hero-text">
+
+<h1>Security Incident Mapping</h1>
+
+<p>
+
+Protecting Our Campus Together.
+
+Report security incidents quickly,
+
+securely and anonymously.
+
+</p>
+
+<a href="#report">
+
+<button>
+
+Report an Incident
+
+</button>
+
+</a>
+
+</div>
+
+</section>
+
+
+
+<section class="about" id="about">
+
+<h2>About SIM</h2>
+
+<p>
+
+Security Incident Mapping (SIM) is a web-based
+
+application developed to enable students,
+
+staff and landlords to report security
+
+incidents on campus quickly and efficiently.
+
+The platform encourages faster reporting,
+
+better communication and safer communities.
+
+</p>
+
+</section>
+
+
+<section class="report" id="report">
+
+<div class="card">
+
+<h2>
+
+Report Security Incident
+
+</h2>
+
+<form id="incidentForm">
+
+<input
+
+type="text"
+
+placeholder="Full Name (Optional)"
+
+>
+
+<select required>
+
+<option value="">
+
+Select Role
+
+</option>
+
+<option>
+
+Student
+
+</option>
+
+<option>
+
+Staff
+
+</option>
+
+<option>
+
+Landlord
+
+</option>
+
+</select>
+
+<select required>
+
+<option value="">
+
+Incident Type
+
+</option>
+
+<option>
+
+Theft
+
+</option>
+
+<option>
+
+Assault
+
+</option>
+
+<option>
+
+Harassment
+
+</option>
+
+<option>
+
+Rape
+
+</option>
+
+<option>
+
+Murder
+
+</option>
+
+<option>
+
+Other
+
+</option>
+
+</select>
+
+<input
+
+type="text"
+
+placeholder="Incident Location"
+
+required>
+
+<textarea
+
+placeholder="Describe the Incident"
+
+required>
+
+</textarea>
+
+<input
+
+type="file">
+
+<label>
+
+<input type="checkbox">
+
+Report Anonymously
+
+</label>
+
+<button type="submit">
+
+Submit Report
+
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+
+<section
+
+class="success"
+
+id="success"
+
+style="display:none;">
+
+<div class="success-card">
+
+<i class="fa-solid fa-circle-check"></i>
+
+<h2>
+
+Report Submitted Successfully
+
+</h2>
+
+<p>
+
+Reference Number
+
+</p>
+
+<h3 id="referenceNumber">
+
+SIM-2026-0000
+
+</h3>
+
+<p>
+
+Thank you for helping make
+
+our campus safer.
+
+</p>
+
+<button onclick="location.reload()">
+
+Report Another Incident
+
+</button>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<p>
+
+SIM | Security Incident Mapping
+
+</p>
+
+<p>
+
+SEN202 Software Engineering Project
+
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
